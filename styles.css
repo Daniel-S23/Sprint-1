@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: hsl(27, 66%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.Rectangle_1 {
+  height: 106px;
+  width: 472px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px;
+  padding: 20px;
+  color: hsl(27, 66%, 92%);
+  background-color: hsl(10, 79%, 65%);
+}
+
+.Text_1 h4 {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: gainsboro
+}
+
+.Text_1 h2 {
+  font-size: 28px;
+}
+
+.Rectangle_2 h2 {
+  font-size: 28px;
+  justify-content: space-between;
+}
+
+.Rectangle_2 {
+  height: 450px;
+  width: 472px;
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: hsl(33, 100%, 98%);
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Container .Container_1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 10px;
+  margin-top: 30px;
+  border-bottom: 1.5px solid hsl(27, 66%, 92%);
+}
+
+.Container_1 div.Width_Bar:hover {
+  background-color: rgb(228, 170, 150);
+}
+
+.Container_1 div.Bars:hover .Text_Up_Bar {
+  display: block;
+}
+
+.Blue div.Width_Bar:hover {
+  background-color: rgb(175, 235, 235);
+}
+
+.Bars {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Text_Up_Bar {
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  background-color: hsl(25, 47%, 15%);
+  color: hsl(27, 66%, 92%);
+  display: none;
+}
+
+.Width_Bar {
+  width: 44px;
+  border-radius: 5px;
+}
+
+.Height_Bar1 {
+  height: 44px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.Height_Bar2 {
+  height: 88px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.Height_Bar3 {
+  height: 132px;
+  background-color: hsl(186, 34%, 60%);
+}
+
+.Height_Bar4 {
+  height: 76px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.Height_Bar5 {
+  height: 58px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.Height_Bar6 {
+  height: 105px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.Height_Bar7 {
+  height: 64px;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.Text_Bottom_Bar {
+  font-size: 15px;
+  margin: 4px;
+  color: hsl(28, 10%, 53%);
+}
+
+.Container_2 {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.Text_Down {
+  font-size: 15px;
+  color: hsl(28, 10%, 53%);
+}
+
+.Text_Down2 {
+  font-size: 44px;
+  margin-top: 4px;
+  color: hsl(25, 47%, 15%);
+}
+
+.Text_Side_Down {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  text-align: right;
+}
+
+.Text_Side_Down h5 {
+  font-size: 18px;
+  color: hsl(25, 47%, 15%);
+}
+
+.Text_Side_Down h4 {
+  font-size: 15px;
+  color: hsl(28, 10%, 53%);
+}
